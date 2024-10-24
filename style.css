@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-controls {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column-reverse;
+}
+
+/* body .counter-value {
+    
+} */
+
+.btn {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+
+.btn-primary {
+    margin-bottom: 5px;
+}
+
+.counter-value {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(149, 255, 0);
+}
+
+input {
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.change {
+  margin: 1rem 0;
+  font-size: 20px;
+  color: rgb(149, 255, 0);
+}
